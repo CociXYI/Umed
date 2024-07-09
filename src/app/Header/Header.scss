@@ -1,0 +1,116 @@
+a {
+    text-decoration: none;
+}
+main {
+    div {
+        display: flex;
+        justify-content: center;
+        padding: 0px 200px 0px 200px;
+        margin-left: auto;
+        margin-right: auto;
+        div{
+            display: flex;
+            flex-direction: column;
+            .telefone {
+                color: black;
+            }
+            .cons {
+                width: 160px;
+                color: #5e419d;
+                font-size: 12px;
+                img {
+                    width: 9px;
+                    height: 9px;
+                }
+            }
+        }
+        .image_Umed {
+            width: 260px;
+            height: 100px;
+        }
+        .icon {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            img {
+                width: 40px;
+                height: 40px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 1444px){
+    main {
+        div {
+            display: flex;
+            justify-content: center;
+            padding: 0px 100px 0px 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media (max-width: 1045px){
+    main {
+        div {
+            display: flex;
+            justify-content: center;
+            padding: 0px 50px 0px 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media (max-width: 835px){
+    main {
+        div {
+            display: flex;
+            justify-content: center;
+            padding: 0px 10px 0px 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media (max-width: 680px){
+    main {
+        div {
+            display: flex;
+            justify-content: center;
+            
+            flex-direction: column;
+            padding: 10px 0px 10px 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media (max-width: 300px){
+    main {
+        div {
+            display: flex;
+            justify-content: center;
+            
+            flex-direction: column;
+            
+            margin-left: auto;
+            margin-right: auto;
+            .image_Umed {
+                width: 180px;
+                height: 100px;
+            }
+            .icon {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                img {
+                    width: 35px;
+                    height: 35px;
+                    margin-right: 20px;
+                }
+            }
+        }
+        
+    }
+}
