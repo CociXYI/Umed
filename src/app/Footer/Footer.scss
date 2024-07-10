@@ -1,0 +1,663 @@
+body {
+    background-color: #e9ecef;
+}
+.main_footer {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 446px;
+    padding-top: 20px;
+
+    .bac_color_footer {
+        box-shadow: 5px 5px 5px 20px #d1d4d6;
+        background-color: #fff;
+        width: 1420px;
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        .footer_logo {
+            padding-right: 70px;
+            .logo_f {
+                width: 141px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            div {
+                a {
+                    color: rgba(54, 54, 54, 0.5);
+                }
+                padding-top: 180px;
+            }
+        }
+        .text_p {
+            padding-right: 70px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+
+            a {
+                color: black;
+                margin-top: 15px;
+            }
+        }
+        .cons_footer {
+            padding-right: 70px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 45px;
+            .telefone {
+                color: #000000;
+            }
+            .cons {
+                width: 160px;
+                color: #000000;
+                font-size: 12px;
+
+                img {
+                    width: 9px;
+                    height: 9px;
+                    padding-right: 5px;
+                }
+            }
+            div {
+                margin-top: 170px;
+                a {
+                    color: #000000;
+                }
+            }
+        }
+    }
+    .vopros {
+        margin-top: 40px;
+        button {
+            display: flex;
+            border-radius: 40px;
+            background-color: #5e419d;
+            width: 190px;
+            height: 44px;
+            border-color: #5e419d;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 16px;
+
+            .img_button_footer {
+                width: 30px;
+                height: 30px;
+                padding-right: 10px;
+            }
+        }
+        .icon_footer {
+            display: flex;
+            justify-content: center;
+            margin-top: 120px;
+            img {
+                width: 20px;
+                height: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+    .row-colum1 {
+        display: flex;
+    }
+    .row-colum2 {
+        display: flex;
+    }
+}
+@media (max-width: 1444px) {
+    .main_footer {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        height: 446px;
+        padding-top: 20px;
+
+        .bac_color_footer {
+            box-shadow: 5px 5px 5px 20px #d1d4d6;
+            background-color: #fff;
+            width: 1220px;
+            display: flex;
+            justify-content: center;
+            border-radius: 30px;
+            .footer_logo {
+                padding-right: 70px;
+                margin-left: 30px;
+                .logo_f {
+                    width: 121px;
+
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                div {
+                    a {
+                        color: rgba(54, 54, 54, 0.5);
+                    }
+                    padding-top: 180px;
+                }
+            }
+            .text_p {
+                padding-right: 70px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+                a {
+                    color: black;
+                    margin-top: 15px;
+                }
+            }
+            .cons_footer {
+                padding-right: 40px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 45px;
+                .telefone {
+                    color: #000000;
+                }
+                .cons {
+                    width: 160px;
+                    color: #000000;
+                    font-size: 12px;
+
+                    img {
+                        width: 9px;
+                        height: 9px;
+                        padding-right: 5px;
+                    }
+                }
+                div {
+                    margin-top: 170px;
+                    a {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+        .vopros {
+            margin-top: 40px;
+            button {
+                display: flex;
+                border-radius: 40px;
+                background-color: #5e419d;
+                width: 190px;
+                height: 44px;
+                border-color: #5e419d;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                font-size: 16px;
+                margin-right: 20px;
+
+                .img_button_footer {
+                    width: 30px;
+                    height: 30px;
+                    padding-right: 10px;
+                }
+            }
+            .icon_footer {
+                display: flex;
+                justify-content: center;
+                margin-top: 120px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1351px) {
+    .main_footer {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        height: 446px;
+        padding-top: 20px;
+
+        .bac_color_footer {
+            box-shadow: 5px 5px 5px 20px #d1d4d6;
+            background-color: #fff;
+            width: 1220px;
+            display: flex;
+            justify-content: center;
+            border-radius: 30px;
+            .footer_logo {
+                padding-right: 30px;
+
+                .logo_f {
+                    width: 121px;
+
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                div {
+                    a {
+                        color: rgba(54, 54, 54, 0.5);
+                    }
+                    padding-top: 180px;
+                }
+            }
+            .text_p {
+                padding-right: 20px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+                a {
+                    color: black;
+                    margin-top: 15px;
+                    width: 300px;
+                }
+            }
+            .cons_footer {
+                padding-right: 10px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 45px;
+                .telefone {
+                    color: #000000;
+                }
+                .cons {
+                    width: 160px;
+                    color: #000000;
+                    font-size: 12px;
+
+                    img {
+                        width: 9px;
+                        height: 9px;
+                        padding-right: 5px;
+                    }
+                }
+                div {
+                    margin-top: 170px;
+                    a {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+        .vopros {
+            margin-top: 40px;
+            button {
+                display: flex;
+                border-radius: 40px;
+                background-color: #5e419d;
+                width: 190px;
+                height: 44px;
+                border-color: #5e419d;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                font-size: 16px;
+                margin-right: 20px;
+
+                .img_button_footer {
+                    width: 30px;
+                    height: 30px;
+                    padding-right: 10px;
+                }
+            }
+            .icon_footer {
+                display: flex;
+                justify-content: center;
+                margin-top: 120px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1237px) {
+    .main_footer {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        height: 756px;
+        padding-top: 20px;
+        width: auto;
+        .bac_color_footer {
+            box-shadow: 5px 5px 5px 20px #d1d4d6;
+            background-color: #fff;
+            width: 920px;
+            display: flex;
+            justify-content: center;
+
+            margin: 0 -100px 0 -100px;
+            border-radius: 30px;
+            .footer_logo {
+                .logo_f {
+                    width: 121px;
+
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                div {
+                    a {
+                        color: rgba(54, 54, 54, 0.5);
+                    }
+                    padding-top: 180px;
+                }
+            }
+            .text_p {
+                padding-right: 20px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+                margin-left: 30px;
+                a {
+                    color: black;
+                    margin-top: 15px;
+                    width: 300px;
+                }
+            }
+            .cons_footer {
+                padding-right: 10px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 45px;
+               
+                .telefone {
+                    color: #000000;
+                }
+                .cons {
+                    width: 160px;
+                    color: #000000;
+                    font-size: 12px;
+
+                    img {
+                        width: 9px;
+                        height: 9px;
+                        padding-right: 5px;
+                    }
+                }
+                div {
+                    margin-top: 170px;
+                    a {
+                        color: #000000;
+                    }
+                }
+            }
+            .vopros {
+                margin-top: 130px;
+                button {
+                    display: flex;
+                    border-radius: 40px;
+                    background-color: #5e419d;
+                    width: 190px;
+                    height: 44px;
+                    border-color: #5e419d;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    font-size: 16px;
+                    margin-right: 20px;
+
+                    .img_button_footer {
+                        width: 30px;
+                        height: 30px;
+                        padding-right: 10px;
+                    }
+                }
+                .icon_footer {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 120px;
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        padding-right: 20px;
+                    }
+                }
+            }
+            .row-colum1 {
+                display: flex;
+                flex-direction: column;
+            }
+            .row-colum2 {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+@media (max-width: 944px) {
+    .main_footer {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        height: 756px;
+        padding-top: 20px;
+        width: auto;
+        .bac_color_footer {
+            box-shadow: 5px 5px 5px 20px #d1d4d6;
+            background-color: #fff;
+            width: 720px;
+            display: flex;
+            justify-content: center;
+
+            margin: 0 -100px 0 -100px;
+            border-radius: 30px;
+            .footer_logo {
+                .logo_f {
+                    width: 121px;
+
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                div {
+                    a {
+                        color: rgba(54, 54, 54, 0.5);
+                    }
+                    padding-top: 150px;
+                }
+            }
+            .text_p {
+                padding-right: 20px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+                margin-left: 30px;
+                a {
+                    color: black;
+                    margin-top: 15px;
+                    width: 300px;
+                }
+            }
+            .cons_footer {
+                padding-right: 10px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 45px;
+               
+                .telefone {
+                    color: #000000;
+                }
+                .cons {
+                    width: 160px;
+                    color: #000000;
+                    font-size: 12px;
+
+                    img {
+                        width: 9px;
+                        height: 9px;
+                        padding-right: 5px;
+                    }
+                }
+                div {
+                    margin-top: 170px;
+                    a {
+                        color: #000000;
+                    }
+                }
+            }
+            .vopros {
+                margin-top: 130px;
+                button {
+                    display: flex;
+                    border-radius: 40px;
+                    background-color: #5e419d;
+                    width: 190px;
+                    height: 44px;
+                    border-color: #5e419d;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    font-size: 16px;
+                    margin-right: 20px;
+
+                    .img_button_footer {
+                        width: 30px;
+                        height: 30px;
+                        padding-right: 10px;
+                    }
+                }
+                .icon_footer {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 120px;
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        padding-right: 20px;
+                    }
+                }
+            }
+            .row-colum1 {
+                display: flex;
+                flex-direction: column;
+            }
+            .row-colum2 {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+@media (max-width: 750px) {
+    .main_footer {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        height: 756px;
+        padding-top: 20px;
+        width: auto;
+        .bac_color_footer {
+            box-shadow: 5px 5px 5px 20px #d1d4d6;
+            background-color: #fff;
+            width: 520px;
+            display: flex;
+            justify-content: center;
+
+            margin: 0 -100px 0 -100px;
+            border-radius: 30px;
+            .footer_logo {
+                .logo_f {
+                    width: 101px;
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                div {
+                    a {
+                        color: rgba(54, 54, 54, 0.5);
+                    }
+                    padding-top: 150px;
+                }
+            }
+            .text_p {
+                padding-right: 20px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+                margin-left: 30px;
+                a {
+                    color: black;
+                    margin-top: 15px;
+                    width: 300px;
+                }
+            }
+            .cons_footer {
+                padding-right: 10px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 45px;
+               
+                .telefone {
+                    color: #000000;
+                }
+                .cons {
+                    width: 160px;
+                    color: #000000;
+                    font-size: 12px;
+
+                    img {
+                        width: 9px;
+                        height: 9px;
+                        padding-right: 5px;
+                    }
+                }
+                div {
+                    margin-top: 170px;
+                    a {
+                        color: #000000;
+                    }
+                }
+            }
+            .vopros {
+                margin-top: 130px;
+                button {
+                    display: flex;
+                    border-radius: 40px;
+                    background-color: #5e419d;
+                    width: 190px;
+                    height: 44px;
+                    border-color: #5e419d;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    font-size: 16px;
+                    margin-right: 20px;
+
+                    .img_button_footer {
+                        width: 30px;
+                        height: 30px;
+                        padding-right: 10px;
+                    }
+                }
+                .icon_footer {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 120px;
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        padding-right: 20px;
+                    }
+                }
+            }
+            .row-colum1 {
+                display: flex;
+                flex-direction: column;
+            }
+            .row-colum2 {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}

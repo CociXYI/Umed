@@ -1,7 +1,13 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial, sans-serif;
+}
 a {
     text-decoration: none;
 }
-main {
+.main_header {
+    background-color: #e9ecef;
     div {
         display: flex;
         justify-content: center;
@@ -18,9 +24,11 @@ main {
                 width: 160px;
                 color: #5e419d;
                 font-size: 12px;
+                
                 img {
                     width: 9px;
                     height: 9px;
+                    padding-right: 5px;
                 }
             }
         }
@@ -41,7 +49,7 @@ main {
     }
 }
 @media (max-width: 1444px){
-    main {
+    .main_header {
         div {
             display: flex;
             justify-content: center;
@@ -52,7 +60,7 @@ main {
     }
 }
 @media (max-width: 1045px){
-    main {
+    .main_header {
         div {
             display: flex;
             justify-content: center;
@@ -63,7 +71,7 @@ main {
     }
 }
 @media (max-width: 835px){
-    main {
+    .main_header {
         div {
             display: flex;
             justify-content: center;
@@ -74,7 +82,7 @@ main {
     }
 }
 @media (max-width: 680px){
-    main {
+    .main_header {
         div {
             display: flex;
             justify-content: center;
@@ -87,7 +95,7 @@ main {
     }
 }
 @media (max-width: 300px){
-    main {
+    .main_header {
         div {
             display: flex;
             justify-content: center;
